@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  titles = ['Desenvolvedor Full Stack', 'Desenvolvedor Mobile'];
+
   
 
   

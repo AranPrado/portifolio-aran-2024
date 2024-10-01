@@ -24,7 +24,7 @@ export class AboutMeComponent implements OnInit {
      const response = await this.globalService.recuperarInformacoes();
  
      if(response){
-       console.log("Deu certo", response)
+       
        this.fotoPerfil = response.avatar_url
      }
      

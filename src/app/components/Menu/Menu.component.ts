@@ -35,9 +35,11 @@ export class MenuComponent implements OnInit {
     
   }
 
-  goTo(page:any) {
-    console.log("clicou")
-    this.router.navigate(['/' + page]);
+  goTo(page: any) {
+    this.router.navigate(['/' + page]).then(() => {
+      window.scrollTo(0, 0); // Rola a página para o topo após a navegação
+    });
   }
+  
 
 }

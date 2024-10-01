@@ -5,30 +5,30 @@
 
   <div class="containerLista" [ngClass]="{ 'open': menuOpen }">
     <ul class="ulLista">
-      <li class="liLista" [ngClass]="isActive('/') ? 'active' : null">
-        <a (click)="goTo('home')" class="buttonList">
+      <a (click)="goTo('home')" class="buttonList">
+        <li class="liLista" [ngClass]="isActive('/') ? 'active' : null">
           <mat-icon class="material-icons-outlined">home</mat-icon>
           <span>Home</span>
-        </a>
-      </li>
-      <li class="liLista" [ngClass]="isActive('/about') ? 'active' : null">
-        <a (click)="goTo('about')" class="buttonList">
+        </li>
+      </a>
+      <a (click)="goTo('about')" class="buttonList">
+        <li class="liLista" [ngClass]="isActive('/about') ? 'active' : null">
           <mat-icon class="material-icons-outlined">person</mat-icon>
           <span>Sobre mim</span>
-        </a>
-      </li>
-      <li class="liLista" [ngClass]="isActive('/project') ? 'active' : null">
-        <a (click)="goTo('projects')" class="buttonList">
+        </li>
+      </a>
+      <a (click)="goTo('projects')" class="buttonList">
+        <li class="liLista" [ngClass]="isActive('/project') ? 'active' : null">
           <mat-icon class="material-icons-outlined">folder</mat-icon>
           <span>Projetos</span>
-        </a>
-      </li>
-      <li class="liLista" [ngClass]="isActive('/resume') ? 'active' : null">
-        <a (click)="goTo('resume')" class="buttonList">
+        </li>
+      </a>
+      <a (click)="goTo('resume')" class="buttonList">
+        <li class="liLista" [ngClass]="isActive('/resume') ? 'active' : null">
           <mat-icon class="material-icons-outlined">badge</mat-icon>
           <span>Currículo</span>
-        </a>
-      </li>
+        </li>
+      </a>
     </ul>
   </div>
 
