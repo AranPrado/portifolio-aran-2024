@@ -18,6 +18,12 @@ export class CurriculumComponent implements OnInit {
   ngOnInit() {
   }
 
-  pdfSrc = 'assets/Curriculo/CurriculoAran.pdf';
+  baixarCurriculo() {
+    const link = document.createElement('a'); // Cria um elemento de link
+    link.href = 'assets/Curriculo/CurriculoAran.pdf'; // Caminho do PDF
+    link.download = 'Currículo Aran.pdf'; // Nome do arquivo para download
+    link.click(); // Aciona o clique para baixar
+  }
+  
 
 }

@@ -1,33 +1,27 @@
 <app-Menu></app-Menu>
 <article class="container">
-  <section>
+  
       <div class="containerButton">
-          <button class="button">
+          <button (click)="baixarCurriculo()" class="button">
               <span>Baixar CV</span>
           </button>
       </div>
-  </section>
+  
 
-  <section>
+  
       <div class="containerCurriculo">
 
-          <pdf-viewer
-            [src]="pdfSrc"
-            [render-text]="true"
-            [original-size]="true"
-          >
-
-          </pdf-viewer>
+          <img class="curriculo" src="../../../assets/Curriculo/CurriculoAran.png" alt="Curriculo" />
 
       </div>
-  </section >
+  
 
-  <section>
+  
       <div class="containerButton">
-          <button class="button">
+          <button (click)="baixarCurriculo()" class="button">
               <span>Baixar CV</span>
           </button>
       </div>
-  </section>
+  
 </article >
 <app-Footer></app-Footer>
