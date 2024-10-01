@@ -1,0 +1,33 @@
+<app-Menu></app-Menu>
+<article class="container">
+  <section>
+      <div class="containerButton">
+          <button class="button">
+              <span>Baixar CV</span>
+          </button>
+      </div>
+  </section>
+
+  <section>
+      <div class="containerCurriculo">
+
+          <pdf-viewer
+            [src]="pdfSrc"
+            [render-text]="true"
+            [original-size]="true"
+          >
+
+          </pdf-viewer>
+
+      </div>
+  </section >
+
+  <section>
+      <div class="containerButton">
+          <button class="button">
+              <span>Baixar CV</span>
+          </button>
+      </div>
+  </section>
+</article >
+<app-Footer></app-Footer>

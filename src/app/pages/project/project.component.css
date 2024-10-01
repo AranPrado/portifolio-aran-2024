@@ -1,0 +1,135 @@
+
+  
+
+  @media (max-width: 768px) {
+  
+  
+    .container{
+      padding-top: 80px;
+      height: 100%;
+      background-color: var(--primary-color);
+    }
+
+    .colorDestaque{
+      color: var(--secondaryEscura-color)
+    }
+
+    .containerSubTitulo{
+      color: var(--secondaryEscura-color)
+    }
+
+    .containerTituloSub{
+    
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .containerCard{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      justify-content: center;
+      align-items: center;
+      
+      margin-top: 80px;
+      padding-bottom: 50px
+    }
+  
+    .containerTitulo{
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+  
+  }
+
+  @media (min-width: 769px) and (max-width: 1200px) {
+    
+  
+    .container{
+      padding-top: 80px;
+      height: 100%;
+      background-color: var(--primary-color);
+    }
+
+    .colorDestaque{
+      color: var(--secondaryEscura-color)
+    }
+
+    .containerSubTitulo{
+      color: var(--secondaryEscura-color)
+    }
+
+    .containerTituloSub{
+    
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 50px;
+      margin-bottom: 30px
+    }
+  
+    .containerCard{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+      padding-bottom: 50px;
+      gap: 30px
+    }
+  
+  
+    .containerTitulo{
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (min-width: 1201px) {
+    
+  
+    .container{
+      padding-top: 80px;
+      height: 100%;
+      background-color: var(--primary-color);
+    }
+
+    .colorDestaque{
+      color: var(--secondaryEscura-color)
+    }
+
+    .containerSubTitulo{
+      color: var(--secondaryEscura-color)
+    }
+  
+    .containerTituloSub{
+      
+      height: 300px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 50px
+    }
+  
+    .containerCard{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+      padding-bottom: 50px;
+      gap: 30px;
+      
+    }
+  
+    .containerTitulo{
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+  }
+
+  

@@ -1,0 +1,37 @@
+<div class="containerCard">
+  <div class="containerImage">
+    <img class="image" [src]="urlImagem" />
+  </div>
+  <div class="containerTitulos">
+    <div class="containerTitulo">
+      <span>{{titulo}}</span>
+    </div>
+    <div class="containerDescricao">
+      <span>{{descricao}}</span>
+    </div>
+  </div>
+
+  <div class="containerTecIcon">
+    <ng-container *ngIf="tecnologias && tecnologias.length > 0; else noTech">
+      <div *ngFor="let tec of tecnologias">
+        <img [src]="tec" class="icon" />
+      </div>
+    </ng-container>
+    <ng-template #noTech>
+      <div>Nenhuma tecnologia disponível</div>
+    </ng-template>
+  </div>
+
+  <div class="containerButtons">
+    <button (click)="abrirLinkGithub()" class="button">
+      <img src="../../../assets/IconsSvg/github.svg" class="iconButton" />
+      <span>Github</span>
+    </button>
+    <ng-container *ngIf="mostrarButtonDemo">
+      <button (click)="abrirDemo()" class="buttonDemo">
+        <mat-icon class="iconDemo">open_in_browser</mat-icon>
+        <span>Demo</span>
+      </button>
+    </ng-container>
+  </div>
+</div>

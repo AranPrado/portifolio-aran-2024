@@ -1,0 +1,52 @@
+<app-Menu></app-Menu>
+
+<article class="container">
+  <section class="containerTituloSub">
+    <div class="containerTitulo">
+      <span>Meus <span class="colorDestaque">projetos</span> recentes</span>
+    </div>
+    <div class="containerSubTitulo">
+      <span>Esses são alguns projetos que venho trabalhando recentemente.</span>
+    </div>
+  </section>
+
+  <section class="containerCard">
+    
+
+    <app-card-project [tecnologias]="['../../../assets/IconsSvg/NestJS.svg','../../../assets/IconsSvg/docker.svg','../../../assets/IconsSvg/postgresql.svg']"
+      [linkGithub]="'https://github.com/AranPrado/agendify'" [linkDemo]="'https://demo.com'" [mostrarButtonDemo]="false"
+      [titulo]="'API Agendify'" [descricao]="'Uma API de agendamento desenvolvida em Node.js utilizando NestJS, Docker e PostgreSQL. O sistema permite que prestadores de serviço realizem seu cadastro completo e registrem os serviços que oferecem. Já os clientes podem se cadastrar, agendar serviços oferecidos pelos prestadores e contar com funcionalidades como cancelar, marcar como concluído e avaliar o atendimento.'"
+      urlImagem="https://raw.githubusercontent.com/AranPrado/agendify/55d96a7562e504659aeebea6e690409f6b8abec7/AGENDIFYAPI.png"></app-card-project>
+
+      <app-card-project [tecnologias]="['../../../assets/IconsSvg/react-native.svg']"
+      [linkGithub]="'https://github.com/AranPrado/agendify-mobile'" [linkDemo]="'https://demo.com'" [mostrarButtonDemo]="false"
+      [titulo]="'Mobile Agendify'" [descricao]="'Versão mobile da API Agendify, desenvolvida em React Native, atuando como o front-end para a plataforma de agendamento. A aplicação permite que clientes e prestadores de serviço utilizem todas as funcionalidades da API, como cadastro, agendamento, cancelamento e avaliação de serviços, de maneira prática e acessível via dispositivos móveis.'"
+      urlImagem="https://raw.githubusercontent.com/AranPrado/agendify-mobile/refs/heads/master/assets/AGENDIFY.png"></app-card-project>
+
+      <app-card-project [tecnologias]="['../../../assets/IconsSvg/laravel.svg']"
+      [linkGithub]="'https://github.com/AranPrado/CrudLaravel'" [linkDemo]="'https://demo.com'" [mostrarButtonDemo]="false"
+      [titulo]="'Lista de compras'" [descricao]="'Projeto full stack desenvolvido com Laravel no back-end e Blade no front-end, implementando o conceito de CRUD (Create, Read, Update, Delete). A aplicação permite a criação, visualização, edição e exclusão de itens em uma lista de compras, proporcionando uma gestão completa e intuitiva dos produtos.'"
+      urlImagem="https://raw.githubusercontent.com/AranPrado/CrudLaravel/refs/heads/main/resources/views/assests/index2.png"></app-card-project>
+
+      <app-card-project [tecnologias]="['../../../assets/IconsSvg/dotnet.svg','../../../assets/IconsSvg/mysql.svg']"
+      [linkGithub]="'https://github.com/AranPrado/FitFusion'" [linkDemo]="'https://demo.com'" [mostrarButtonDemo]="false"
+      [titulo]="'API Fit Fusion'" [descricao]="'API desenvolvida em ASP.NET para um sistema completo de personal trainers. Permite que profissionais realizem cadastros detalhados de seus alunos, vinculem treinos personalizados e criem planos de treino individuais. A API também oferece uma área administrativa para gestão de serviços de academias, proporcionando uma solução robusta tanto para profissionais quanto para administradores.'"
+      urlImagem="https://media.licdn.com/dms/image/v2/D4D22AQGktJuPR_UCyA/feedshare-shrink_1280/feedshare-shrink_1280/0/1717426616820?e=1730332800&v=beta&t=aRF8D-9X2AhUf2oBejLnxy3DO6j0gjbz_NutmDW6PlM"></app-card-project>
+
+      <app-card-project [tecnologias]="['../../../assets/IconsSvg/javascript.svg','../../../assets/IconsSvg/html.svg', '../../../assets/IconsSvg/css.svg']"
+      [linkGithub]="'https://github.com/AranPrado/Pizza_Project'" [linkDemo]="'https://pizzapr.netlify.app/'" [mostrarButtonDemo]="true"
+      [titulo]="'Pizza projeto'" [descricao]="'Cardápio online desenvolvido com HTML, CSS e JavaScript, permitindo que os usuários escolham pizzas de diferentes sabores e personalizem suas opções, cada uma com seu respectivo preço. A aplicação inclui um fluxo completo até a etapa de checkout, onde o cliente pode finalizar o pagamento de forma simples e intuitiva.'"
+      urlImagem="https://raw.githubusercontent.com/AranPrado/Pizza_Project/refs/heads/main/PizzasSiteCortada.png"></app-card-project>
+
+      <app-card-project [tecnologias]="['../../../assets/IconsSvg/laravel.svg']"
+      [linkGithub]="'https://github.com/AranPrado/ERP_Laravel'" [linkDemo]="'https://pizzapr.netlify.app/'" [mostrarButtonDemo]="false"
+      [titulo]="'ERP Laravel'" [descricao]="'Um sistema ERP completo desenvolvido em Laravel, utilizando Blade no front-end. A aplicação inclui funcionalidades de login e registro, com divisão de acesso entre cliente e vendedor. Permite o cadastro de matéria-prima para a criação de produtos finais e conta com um sistema de carrinho de compras. Além disso, oferece recursos de gerenciamento de usuários, como alteração de senha, proporcionando uma solução full stack robusta e eficiente.'"
+      urlImagem="https://raw.githubusercontent.com/AranPrado/ERP_Laravel/213962c4a57dec85c7730ba6b7827eda19721af9/public/assets/images/ERPCERTOCortado.png"></app-card-project>
+
+    
+
+  </section>
+
+</article>
+
+<app-Footer></app-Footer>

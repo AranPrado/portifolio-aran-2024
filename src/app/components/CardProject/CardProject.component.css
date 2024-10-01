@@ -1,0 +1,142 @@
+
+.containerCard{
+    background-color: var(--primary-color);
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.icon{
+    width: 35px;
+}
+
+
+.image{
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+}
+
+.containerTitulos{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.containerTitulo{
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.containerDescricao{
+    text-align: center;
+}
+
+.containerButtons{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    margin-bottom: 15px;
+}
+
+.iconButton{
+    width: 25px;
+    
+}
+
+.button{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.buttonDemo{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: #fff;
+    gap: 10px
+}
+
+.iconDemo{
+    color: #000
+}
+
+.button:hover{
+    background-color: var(--secondaryEscura-color);
+}
+
+.containerTecIcon{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .containerCard{
+        
+        width: 300px;
+        border-radius: 10px;
+        
+        
+    }
+
+    .image{
+        border-radius: 10px;
+        width: 280px;
+        height: 250px;
+        border: 1px solid var(--primaryEscura-color)
+    
+    }
+
+    .containerTitulos{
+        padding-top: 15px;
+        
+        
+    }   
+
+    
+    
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .containerCard{
+        
+        width: 350px;
+        border-radius: 10px;
+       
+        
+    }
+
+    .image{
+        border-radius: 10px;
+        width: 330px;
+        height: 250px;
+        border: 1px solid var(--primaryEscura-color)
+    
+    }
+
+    
+    
+}

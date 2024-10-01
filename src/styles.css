@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans'
+  }
+  
+  :root{
+    --primary-color: #F7EED3;
+    --primaryEscura-color: #dfcb8f;
+    --secondary-color: #ff725e;
+    --secondaryEscura-color: #e8462f;
+  }
+  

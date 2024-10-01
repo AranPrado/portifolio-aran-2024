@@ -1,0 +1,244 @@
+.containerFooter {
+
+    width: 100%;
+
+
+    height: 60px;
+}
+
+.linkedin {
+    color: #0e76a8
+}
+
+.instagram {
+    
+    color: rgb(218, 37, 218)
+}
+
+.github{
+    color:#fff
+}
+
+
+@media (max-width: 545px) {
+    .containerFooter {
+        background-color: var(--primaryEscura-color);
+        display: flex;
+        height: 120px;
+        flex-direction: column;
+
+
+
+
+    }
+
+    .itensFooter {
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+
+    }
+
+    .sectionRedes {
+        display: flex;
+
+
+    }
+
+    .icons {
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .iconSize {
+        width: 40px;
+        height: auto;
+    }
+
+
+
+
+
+
+}
+
+@media (min-width:546px) and (max-width: 768px) {
+
+    .containerFooter {
+        background-color: var(--primaryEscura-color);
+        display: flex;
+
+        height: 80px;
+
+        width: 100%;
+
+
+    }
+
+    .itensFooter {
+
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .sectionRedes {
+        display: flex;
+
+
+    }
+
+    .icons {
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .iconSize {
+        width: 35px;
+        height: auto;
+    }
+
+
+}
+
+
+/* Dispositivos grandes (tablets em modo paisagem e desktops menores) */
+@media (min-width: 769px) and (max-width: 992px) {
+
+    /* Seus estilos para telas entre 769px e 992px */
+    .containerFooter {
+        background-color: var(--primaryEscura-color);
+        display: flex;
+
+        height: 80px;
+
+        width: 100%;
+
+
+    }
+
+    .itensFooter {
+
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .sectionRedes {
+        display: flex;
+
+
+    }
+
+    .icons {
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .iconSize {
+        width: 35px;
+        height: auto;
+    }
+
+}
+
+/* Dispositivos extra grandes (desktops grandes e maiores) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .containerFooter {
+        background-color: var(--primaryEscura-color);
+        display: flex;
+
+        height: 80px;
+
+        width: 100%;
+
+
+    }
+
+    .itensFooter {
+
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .sectionRedes {
+        display: flex;
+
+
+    }
+
+    .icons {
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .iconSize {
+        width: 35px;
+        height: auto;
+    }
+}
+
+/* Dispositivos muito grandes (desktops muito grandes) */
+@media (min-width: 1201px) {
+
+    /* Seus estilos para telas maiores que 1200px */
+    .containerFooter {
+        background-color: var(--primaryEscura-color);
+        display: flex;
+
+        height: 80px;
+
+        width: 100%;
+
+
+    }
+
+    .itensFooter {
+
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .sectionRedes {
+        display: flex;
+
+
+    }
+
+    .icons {
+        margin-right: 10px;
+        margin-left: 10px
+    }
+
+    .iconSize {
+        width: 35px;
+        height: auto;
+    }
+
+}

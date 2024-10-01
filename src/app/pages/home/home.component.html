@@ -1,0 +1,79 @@
+<app-Menu></app-Menu>
+<article class="container">
+
+  <section class="containerSectionSuperior">
+    <div class="containerInfoSuperiorInicial">
+
+      <div class="containerOla">
+        <span>Olá!</span>
+        <span class="emoji">👋</span>
+      </div>
+      <div class="containerNome">
+        <span>Eu sou </span>
+        <span class="colorDestaque">{{ nome }}</span>
+      </div>
+      <div class="containerTypewriter">
+        <span>{{titles[0]}}</span>
+      </div>
+
+    </div>
+    <div>
+      <img src="assets/images/programadorVector.svg" class="imageProgramador"  />
+    </div>
+  </section>
+
+  <section class="containerSectionInfo">
+
+    <div class="containerParteInferior">
+
+      <div class="containerInfos">
+        <div class="containerTitulo">
+          <h2 class="titulo">Deixe-me me </h2>
+          <h2 class="titulo colorDestaque">apresentar</h2>
+        </div>
+        <span>Eu me apaixonei por programação e bom pelo menos aprendi alguma coisa eu acho...🤷‍♂️</span>
+        <span>Tenho conhecimento principalmente nas linguagens como <span class="colorDestaque">javascript e C#.</span></span>
+        <span>Minhas áreas de interesse são construir novas <span class="colorDestaque">tecnologias e produtos da Web</span> e também tenho o interesse na área de <span class="colorDestaque">desenvolvimento de aplicativos mobile.</span></span>
+        <span>Sempre que possível, também aplico minha paixão por desenvolver produtos com <span class="colorDestaque">Node.js</span>, <span class="colorDestaque">Asp.Net</span> e também <span class="colorDestaque">bibliotecas e frameworks Javascripts modernos </span> como <span class="colorDestaque">React.js, React Native, Next.js e Angular.</span></span>
+      </div>
+      <div>
+        <img src="assets/images/ideiasProgramming.svg" class="imageIdeias" alt="Ideias Programação" />
+      </div>
+    </div>
+
+  </section>
+
+  <section class="containerEncontroMe">
+    <div>
+      <span class="tituloEncontreMe">Encontre-me em</span>
+    </div>
+    <div>
+      <span class="subTituloEncontreMe">Sinta-se à vontade para se conectar comigo</span>
+    </div>
+    <div class="containerIcons">
+      <a [href]="linkGitHub" target="_blank">
+        <div class="iconsFundo">
+          <img src="assets/IconsSvg/github.svg" class="iconsSize" alt="">
+        </div>
+      </a>
+      <a [href]="linkLinkedin" target="_blank">
+        <div class="iconsFundo">
+          <img src="assets/IconsSvg/linkedin.svg" class="iconsSize" alt="">
+        </div>
+      </a>
+      <a [href]="linkInstagram" target="_blank">
+        <div class="iconsFundo">
+          <img src="assets/IconsSvg/instagram.svg" class="iconsSize" alt="">
+        </div>
+      </a>
+      <a [href]="linksWhatsApp" target="_blank">
+        <div class="iconsFundo">
+          <img src="assets/IconsSvg/whatsapp.svg" class="iconsSize" alt="">
+        </div>
+      </a>
+    </div>
+  </section>
+
+</article>
+
+<app-Footer></app-Footer>

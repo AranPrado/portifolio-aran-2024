@@ -1,0 +1,85 @@
+<app-Menu></app-Menu>
+<article class="container">
+  <section class="sectionSuperiorContainer">
+      <div class="superiorInfo">
+          <div class="tituloQuemEuSou">
+              <span>Saiba quem <span class="colorDestaque">eu sou</span></span>
+          </div>
+          <div class="containerTextInfoPessoal">
+              <span>Olá a todos, eu sou <span class="colorDestaque">Aran Prado</span>, tenho 21 anos e atualmente moro na <span class="colorDestaque">Serra, no Espírito Santo.</span></span> <br />
+              <span>Atualmente, estou empregado como desenvolvedor de software na Moveh.</span> <br />
+              <span>Também estou cursando Análise e Desenvolvimento de Sistemas na Estácio de Sá, e estou no 4º período da faculdade.</span>
+          </div>
+
+          <div>
+              <div class="containerSubTitulo">
+
+                  <span>Além de programar, aqui estão algumas outras atividades que amo fazer!</span>
+              </div>
+
+              <div class="containerItem">
+                <mat-icon>navigate_next</mat-icon>
+                  <span>Ir à praia</span>
+              </div>
+              <div class="containerItem">
+                <mat-icon>navigate_next</mat-icon>
+                  <span>Conhecer novos lugares</span>
+              </div>
+              <div class="containerItem">
+                <mat-icon>navigate_next</mat-icon>
+                  <span>Praticar atividades físicas (Futevôlei, Corrida, Academia)</span>
+              </div>
+          </div>
+
+          <div>
+              <img class="wakatimeWeb" loading="lazy" src="https://wakatime.com/badge/user/ddc78506-9d8d-4100-b441-bb2910659ada.svg" alt="Wakatime Badge" />
+          </div>
+      </div>
+      <div class="containerImagem">
+          <div>
+              <img class="wakatimeCell" loading="lazy" src="https://wakatime.com/badge/user/ddc78506-9d8d-4100-b441-bb2910659ada.svg" alt="Wakatime Badge Mobile" />
+          </div>
+          <div>
+              <img class="imagem" loading="lazy" [src]="fotoPerfil" alt="Profile Picture" />
+          </div>
+      </div>
+  </section>
+  
+  <section class="containerSkills">
+      <div class="titulosSkillsFerramentas">
+          <span>Hard <span class="colorDestaque">Skills</span></span>
+      </div>
+      <div class="containerIcon">
+        <app-CardTec imagemUrl="assets/IconsSvg/html.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/css.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/angular.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/react.svg"></app-CardTec>
+        <app-CardTec width="50px" imagemUrl="assets/IconsSvg/nextjs.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/nodejs.svg"></app-CardTec>
+        <app-CardTec width="60px" imagemUrl="assets/IconsSvg/react-native.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/docker.svg"></app-CardTec>
+        <app-CardTec width="30px" imagemUrl="assets/IconsSvg/firebase.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/javascript.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/mysql.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/NestJS.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/git.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/dotnet.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/styled-components.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/postgresql.svg"></app-CardTec>
+      </div>
+  </section>
+
+  <section class="containerFerramentas">
+      <div class="titulosSkillsFerramentas">
+          <span>Ferramentas que <span class="colorDestaque">eu uso</span></span>
+      </div>
+      <div class="containerIconFerramentas">
+        <app-CardTec imagemUrl="assets/IconsSvg/vercel.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/vscode.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/linux.svg"></app-CardTec>
+        <app-CardTec width="28px" imagemUrl="assets/IconsSvg/figma.svg"></app-CardTec>
+        <app-CardTec imagemUrl="assets/IconsSvg/insomnia.svg"></app-CardTec>
+      </div>
+  </section>
+</article>
+<app-Footer></app-Footer>

@@ -1,0 +1,41 @@
+.container {
+    padding-top: 90px;
+    background-color: var(--primary-color);
+  }
+  
+  .containerButton {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .button:hover{
+    background-color: var(--secondaryEscura-color);
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .containerCurriculo {
+    
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

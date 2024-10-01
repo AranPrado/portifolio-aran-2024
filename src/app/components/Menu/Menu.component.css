@@ -1,0 +1,132 @@
+/* Dispositivos pequenos (telefones em modo retrato) */
+
+.containerHeader{
+    background-color: var(--primaryEscura-color);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+    position: fixed;
+}
+
+.active .buttonList {
+    border-bottom: 1px solid var(--secondaryEscura-color); /* Adicione a borda na página ativa */
+    /* Cor diferente para o link ativo */
+}
+
+
+
+.containerLogo{
+    
+    padding: 10px
+}
+
+.LogoNome{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--secondaryEscura-color);
+}
+
+.ulLista{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.liLista{
+    gap: 5px;
+    
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.buttonList{
+        
+    border: none;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px
+}
+
+.buttonList:hover{
+    border-bottom: 1px solid var(--secondaryEscura-color);
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: 8px;
+}
+
+
+.menuIcon {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .containerHeader{
+        background-color: var(--primaryEscura-color);
+        height: 60px;
+    }
+
+    .buttonList{
+        
+        border: none;
+        text-decoration: none;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px
+    }
+
+    .icon{
+        margin-right: 10px;
+    }
+
+    .ulLista {
+        display: none;
+        flex-direction: column;
+        gap: 50px;
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        border-top: 1px solid var(--primary-color);
+        padding: 10px;
+        background-color: var(--primaryEscura-color);
+        border-radius: 0px 0px 15px 15px;
+        width: 100%;
+    }
+
+    .containerLista.open .ulLista {
+        display: flex;
+    }
+
+    .liLista{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .liLista span {
+        font-size: 18px;
+    }
+
+    .menuIcon {
+        display: block;
+        color: var(--secondaryEscura-color);
+    }
+}
+

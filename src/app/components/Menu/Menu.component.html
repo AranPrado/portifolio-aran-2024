@@ -1,0 +1,38 @@
+<header class="containerHeader">
+  <div class="containerLogo">
+    <span class="LogoNome">AR</span>
+  </div>
+
+  <div class="containerLista" [ngClass]="{ 'open': menuOpen }">
+    <ul class="ulLista">
+      <li class="liLista" [ngClass]="isActive('/') ? 'active' : null">
+        <a (click)="goTo('home')" class="buttonList">
+          <mat-icon class="material-icons-outlined">home</mat-icon>
+          <span>Home</span>
+        </a>
+      </li>
+      <li class="liLista" [ngClass]="isActive('/about') ? 'active' : null">
+        <a (click)="goTo('about')" class="buttonList">
+          <mat-icon class="material-icons-outlined">person</mat-icon>
+          <span>Sobre mim</span>
+        </a>
+      </li>
+      <li class="liLista" [ngClass]="isActive('/project') ? 'active' : null">
+        <a (click)="goTo('projects')" class="buttonList">
+          <mat-icon class="material-icons-outlined">folder</mat-icon>
+          <span>Projetos</span>
+        </a>
+      </li>
+      <li class="liLista" [ngClass]="isActive('/resume') ? 'active' : null">
+        <a (click)="goTo('resume')" class="buttonList">
+          <mat-icon class="material-icons-outlined">badge</mat-icon>
+          <span>Currículo</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="menuIcon" (click)="toggleMenu()">
+    <mat-icon>menu</mat-icon>
+  </div>
+</header>
